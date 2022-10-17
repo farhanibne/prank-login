@@ -24,7 +24,7 @@ password.addEventListener("keyup", () => {
       const passwordValue = document.getElementById("pass").value;
       // console.log("password ln", passwordValue.length);
 
-      if (passwordValue.length < 8) {
+      if (passwordValue.length ) {
         btn.style.position = "absolute";
         btn.style.bottom = "-50px";
         console.log("width", elemWidth);
